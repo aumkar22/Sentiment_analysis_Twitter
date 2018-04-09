@@ -1,5 +1,3 @@
-[2]{}
-
 Introduction
 ============
 
@@ -104,7 +102,7 @@ given the current word. From the weights of the trained model then a
 vector is generated which ‘holds’ the meaning of the word. In the vector
 space, cosine distance is measured and used to answer questions such as
 *‘What is x for*
-$x = vector(`biggest') - vector(`big') + vector(`small')?$’. Thus, words
+`$x = vector(`biggest') - vector(`big') + vector(`small')?$’. Thus, words
 which are semantically closer, appear closer in the vector space than
 words which have more different meaning. The original model is a feed
 forward two layer neural network which processes text. The output of the
@@ -118,8 +116,7 @@ The model is then trained to update the weights. Figure
 words such as ‘car’ and ‘bike’; ‘weekend’, ‘time’ and ‘day’ form a
 cluster in the vector space.
 
-![Word vectors
-representation[]{data-label="fig:word_vecs"}](word_vecs.png)
+![Word vectors representation[]{data-label="fig:word_vecs"}](word_vecs.png)
 
 Sentiment Classifier
 --------------------
